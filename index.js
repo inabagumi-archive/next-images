@@ -19,8 +19,8 @@ module.exports = (nextConfig = {}) => {
               name: options.dev
                 ? '[name].[ext]?[contenthash:8]'
                 : '[name].[contenthash:8].[ext]',
-              outputPath: 'static/images',
-              publicPath: '/_next/static/images'
+              outputPath: 'static/media',
+              publicPath: '/_next/static/media'
             }
           }
         ]
